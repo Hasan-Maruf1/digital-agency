@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navigation bar */
+.main-menu{
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+ .menus{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+/* Banner */
+.banner-main{
+    height: 100vh;
+    background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.primary-color{
+    color: red;
+}
+.banner-title{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.banner-desc{
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.btn-red{ 
+    background-color: red;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+}
+.btn-primary{
+    font-size: 16px;
+    padding: 10px;
+    border: 0px;
+}
+.author-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.author{
+    display: flex;
+    align-items: center;
+    border-right: 2px red solid;
+    background-color: rgba(0, 0, 0, 0.493);
+
+
+}
+.author-pic{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+
+}
+.author-name{
+    font-weight: 600;
+    padding: 5px;
+    color: white;
+    }
+
+.service-desc{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+.service-main{
+    display: flex;
+    height: 100vh;
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    padding: 30px;
+    
+}
+.img-chart{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.chart-one {
+    display: flex;
+    text-align: center;
+    gap: 2px;
+}
+.chart-item{
+    background-color: white;
+    margin: 2px;
+    padding: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+.service-left{
+    color: white;
+}
+.appointment{
+    display: flex;
+    background-color:rgba(255, 0, 0, 0.884);
+    height: 100px;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: -50px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.cell-img{
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+}
+.appointment-phone{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    text-align: left;
+    
+}
+.appointment-desc{
+    text-align: center;
+    padding: 10px;
+}
+.btn-appointment > button{
+    color: black;
+    font-size:medium;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* blog */
+#blog-title-color{
+    color: red;
+}
+.blog-main{
+    background-color: gray;
+    height: 60vh;
+    width: 80%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.blog-title{
+    font-size: 50px;
+    text-align: center;
+}
+.blog-pic{
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+
+
+}
+.blog-table{
+    display: flex;   
+}
+.blog-contant{
+    text-align: center;
+    padding: 20px;
+}
